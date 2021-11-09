@@ -1,0 +1,7 @@
+$background-red-start: #FF4F4F;
+$background-red-end: #FEB9B9;
+
+.fire {
+  height:100%;
+  background-image: linear-gradient(45deg,$background-red-start, $background-red-end);
+}

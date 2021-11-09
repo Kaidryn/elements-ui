@@ -1,0 +1,7 @@
+$background-teal-start: #70D1D0;
+$background-teal-end: #E4FFFF;
+
+.air {
+  height:100%;
+  background-image: linear-gradient(45deg,$background-teal-start, $background-teal-end);
+}

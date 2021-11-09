@@ -1,13 +1,15 @@
 import * as React from 'react';
-import '../styles/App.css';
+import '../styles/Home.scss';
 import { Link } from "react-router-dom";
 
 export class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home">
         <h1>Welcome to the landing page!</h1>
+        <hr/>
         <div>
+          
           <Link to="/air">Air</Link>
         </div>
         <div>

@@ -1,0 +1,7 @@
+$background-blue-start: #1EC0FF;
+$background-blue-end: #B1E9FE;
+
+.water {
+  height:100%;
+  background-image: linear-gradient(45deg,$background-blue-start, $background-blue-end);
+}

@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { Link } from "react-router-dom";
 import fire from '../images/fire.png'
+import '../styles/Fire.scss';
 
 export class FireComponent extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <div className="fire">        
           <div>
             <Link to="/">Back</Link>
           </div>
@@ -15,6 +17,7 @@ export class FireComponent extends React.Component {
           <div>
             <img src={fire} alt="fire" />
           </div>
+        </div>
       </React.Fragment>
     )
   }

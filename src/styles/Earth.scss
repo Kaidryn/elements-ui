@@ -1,0 +1,7 @@
+$background-brown-start: #CC9966;
+$background-brown-end: #FFF4C2;
+
+.earth {
+  height:100%;
+  background-image: linear-gradient(45deg,$background-brown-start, $background-brown-end);
+}
